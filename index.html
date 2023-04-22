@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<title>Malla WACHITA RICA</title>
+	<meta property="og:title" content="Malla Interactiva ICOM USM" />
+	<meta property="og:url" content="https://github.com/DnlTrrs/Plan-de-Carrera/blob/master" />
+	<meta property="og:image" content="https://github.com/DnlTrrs/Plan-de-Carrera/blob/master/thumbnail.png?raw=true" />
+	<meta name="description" content="Lleva un Registro de Tus Ramos Aprobados.">
+	<meta name="keywords" content="malla interactiva icom, malla icom, usm, usm cc, usm casa central">
+	<link rel="icon" href="caaicom.ico">
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131372584-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131372584-1');
+</script>
+
+  </head>
+  <style>
+		body {
+			display: inline;
+			text-align: center;
+			justify-content:center;
+			background-image: url("data/pas.jpg");
+			height: 400px;
+			background-size: cover;
+			background-repeat:no-repeat;
+			background-position: center center;
+		}
+		html {
+			font-family: sans-serif;
+			color
+		}
+
+		.info {
+			font-size: 30px;
+		}
+
+  </style>  
+
+  <body>
+
+<nav class="navbar navbar-default"style='display:flex;justify-content:center'>
+  <div class="container-fluid" >
+    <ul class="nav navbar-nav">
+      <li><a href="?m=ICOM06">Comercial 06</a></li>
+    </ul>
+  </div>
+</nav>
+	  <h1>MALLA TECNOLOGIA MEDICA</h1>
+		<div class='canvas'></div>		
+		<div class='color-description' style="position:relative;display:flex;justify-content:center;flex-wrap:wrap;"></div>
+		<div class="info">
+			Créditos aprobados: <span id='creditos'></span> <br>
+			<button type="button" onclick="limpiarRamos()" class="btn btn-info">Limpiar ramos aprobados</button>
+		</div>
+
+		<p><img src="data/ramo.svg" style="width:300px;"></p>
+
+		<script src='d3.js'></script>
+		<script src='ramos.js'></script>
+		<script src='canvas.js'></script>
+  </body>
+</html>
+

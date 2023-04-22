@@ -1,0 +1,77 @@
+{
+   "s1":[
+      ["Anatomia humana","MORF010",7,"CBT"],
+      ["Biologia celular","EFI100",2,"CBT"],
+      ["Laboratorio celular","INF130",5,"CBT"],
+      ["Quimica general","ICS161",5,"CBT"],
+      ["Intro a la tec. medica","MATE10",6,"CBT"],
+      ["Elementos de alg. y calculo","ICS111",5,"CBT"]   
+   ],
+   "s2":[
+      ["Histoembriologia","ICS182",7,"CBT",["MORF010"]],
+      ["Fisica general","EFI101",2,"CBT",["EFI100"]],
+      ["Quimica organica","IQA161",5,"CBT",["ICS161"]],
+      ["Ingles I","MATE11",5,"MATE",["MATE10"]],
+      ["Habilidades comunicativas","MATE20",5,"MATE",["MATE10"]],
+      ["BORRAR","ICS112",5,"ADMI",["ICS111"]] 
+   ],
+   "s3":[
+      ["Fisiologia humana","ICS142",5,"FINZ",["INF130","MATE20"]],
+      ["Bioetica","ICS141",5,"FINZ",["ICS112"]],
+      ["Bioquimica","INF303",5,"INFO",["INF130"]],
+      ["Infectologia","MATE25",5,"MATE",["MATE11","MATE20"]],
+      ["Inglés II","HCW100",3,"ENGL"],
+      ["Razonamiento cientifico y tics","HAH101",5,"HUM"]
+   ],
+   "s4":[
+      ["Fisiopatologia","DEW0",2,"EFI",["EFI101"]],
+      ["Farmacologia general","ICS143",5,"FINZ",["ICS141"]],
+      ["Tecnicas histologicas y citologicas I","ICS162",5,"ECON",["ICS161","MATE25"]],
+      ["Histologia clinica","MATE26",5,"MATE",["MATE25"]],
+      ["Inglés III","HCW101",3,"ENGL",["HCW100"]],
+      ["BORRAR","HAH102",5,"HUM",["HAH101"]]
+   ],
+   "s5":[
+      ["Procedimientos de tec. medica y bioseguridad","ICS284",5,"TLLR",["INF303","ICS142"]],
+      ["Salud publica","ICS231",6,"MKTG",["ICS143"]],
+      ["Tecnicas histologicas y citologicas II","ICS244",5,"FINZ",["ICS141"]],
+      ["Anatomia patologica I","ICS263",5,"ECON",["ICS162"]],
+      ["Ingles IV","MAT033",5,"MATE",["MATE25"]],
+      ["BORRAR","HCW102",3,"ENGL",["HCW101"]]
+   ],
+   "s6":[
+      ["Salud publica II","ICS285",5,"TLLR",["ICS284"]],
+      ["Biologia molecular y genetica","ICS221",6,"MKTG",["ICS244","ICS231"]],
+      ["Diagnostico histoquimico","ICS245",5,"FINZ",["ICS284","ICS143"]],
+      ["Anatomia patologica II","ICS264",5,"ECON",["ICS162","MATE26"]],
+      ["Pensamiento critico","ICS294",7,"OPER",["MAT033"]],
+      ["BORRAR","HCW200",3,"ENGL",["HCW102"]]
+   ],
+   "s7":[
+      ["Educacion en salud","ICS232",6,"MKTG",["ICS231","MAT033"]],
+      ["Administracion y gestion en salud","ICS246",5,"FINZ",["ICS245"]],
+      ["Fundamentos de citogenetica","ICS265",5,"ECON",["ICS264","ICS263"]],
+      ["Diagnostico inmunohistoquimico","ICS295",5,"OPER",["MAT033"]],
+      ["Citopatologia I","HCW201",3,"ENGL",["HCW200"]],
+      ["Integrador I: Caso clinico","ICS213",5,"ADMI",["ICS112","HAH102"]]
+   ],
+   "s8":[
+      ["Metodologia de la investigacion","ICS286",7,"TLLR",["ICS284","ICS232","ICS245"]],
+      ["Gestion y aseguramiento de la calidad","ICS222",6,"MKTG",["ICS221"]],
+      ["Diagnostico citogenetico","INF370",5,"INFO",["ICS221","INF303"]],
+      ["Diagnostico molecular","ICS296",5,"OPER",["ICS295"]],
+      ["Citopatologia II","HCW202",3,"ENGL",["HCW201"]],
+      ["BORRAR","HAH103",5,"HUM",["HAH102"]]
+   ],
+   "s9":[
+      ["Responsabilidad social","ICS387",5,"TLLR",["ICS222","ICS286","ICS285"]],
+      ["Seminario de investigacion","ICS315",7,"ADMI",["ICS213","ICS244","HAH103"]],
+      ["BORRAR","ICS113",6,"ADMI",["ICS213"]],
+      ["BORRAR I","ICS801",5,"ELEC"],
+      ["BORRAR II","ICS802",5,"ELEC"]
+   ],
+   "s10":[
+      ["Integrador II:Internado clinico","ICS399",16,"TLLR",["ICS387"]],
+      ["BORRAR","ICS803",5,"ELEC"]
+   ]
+}
